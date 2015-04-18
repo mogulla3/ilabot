@@ -20,9 +20,9 @@ GEM
       natto
     json (1.8.2)
     mem (0.1.5)
-    minitest (5.5.1)
+    minitest (5.6.0)
     multipart-post (2.0.0)
-    natto (0.9.9)
+    natto (1.0.0)
       ffi (>= 1.9.0)
     rake (10.4.2)
     redis (3.2.1)
@@ -40,12 +40,18 @@ GEM
       activesupport
       chrono
       ruboty (>= 0.2.0)
+    ruboty-echo (0.1.0)
+      ruboty
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
       ruboty
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
+      ruboty
+    ruboty-lgtm (0.0.3)
+      faraday
+      faraday_middleware
       ruboty
     ruboty-redis (0.0.5)
       redis
@@ -68,7 +74,9 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
+  ruboty-echo
   ruboty-google_image
   ruboty-kokodeikku
+  ruboty-lgtm
   ruboty-redis
   ruboty-slack
