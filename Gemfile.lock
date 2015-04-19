@@ -54,7 +54,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-ma (0.1.0)
+    ruboty-ma (0.1.1)
       faraday
       faraday_middleware
       multi_xml
