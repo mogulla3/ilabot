@@ -14,17 +14,12 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    ffi (1.9.10)
     i18n (0.7.0)
-    ikku (0.1.4)
-      natto
     json (1.8.3)
     mem (0.1.5)
     minitest (5.8.4)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    natto (1.1.0)
-      ffi (>= 1.9.0)
     rake (11.1.2)
     redis (3.2.2)
     redis-namespace (1.5.2)
@@ -35,8 +30,6 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.8)
-      ruboty (>= 1.1.1)
     ruboty-cron (1.1.0)
       activesupport
       chrono
@@ -46,9 +39,6 @@ GEM
     ruboty-google_image (0.1.0)
       faraday
       faraday_middleware
-      ruboty
-    ruboty-kokodeikku (0.0.8)
-      ikku (>= 0.1.1)
       ruboty
     ruboty-lgtm (0.0.3)
       faraday
@@ -78,11 +68,9 @@ PLATFORMS
 
 DEPENDENCIES
   rake
-  ruboty-alias
   ruboty-cron
   ruboty-echo
   ruboty-google_image
-  ruboty-kokodeikku
   ruboty-lgtm
   ruboty-ma
   ruboty-redis
